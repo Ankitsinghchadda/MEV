@@ -3,7 +3,7 @@ import FeatureCard from './FeatureCard'
 
 const GetStarted = () => {
   return (
-    <section className="text-neutral-800 body-font h-screen">
+    <section className="text-neutral-800 body-font">
         <div className="container px-5 py-12 mx-auto flex flex-col items-center">
             <p className='uppercase mb-7 font-semibold text-[#ff6daa] text-center'>Get started</p>
             <p className='text-4xl font-bold text-center mb-5'>Getting Started Is Easy</p>
