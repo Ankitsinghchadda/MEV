@@ -12,13 +12,18 @@ interface FeatureCardProps {
 const FeatureCard: React.FC<FeatureCardProps> = ({ number, heading, subheading, reversed, button}) => {
   return (
     <section className={`mx-auto text-neutral-600 flex items-center justify-center gap-40 p-12 ${reversed === true ? 'flex-row-reverse': 'flex-row'}`}>
-        <div className='border-l-4 border-neutral-200 pl-8 w-1/2'>
-            <span className='font-bold text-[#ff6daa] text-3xl tracking-tight'>{number}</span>
-            <p className='font-bold text-neutral-800 text-4xl mt-3 mb-8 tracking-tight'>{heading}</p>
-            <p className='w-[400px]'>{subheading}</p>
-            { button && <button className='uppercase py-3 px-16 bg-[#3804d4] text-white rounded-md mt-6'>Register</button> }
+        <div className='w-1/2'>
+          <div className='flex gap-8'>
+            <div className='w-1 rounded h-50 bg-neutral-200'></div>
+            <div className='py-2'>
+              <span className='font-bold bg-gradient-to-r from-sky-500 to-blue-400 bg-clip-text text-transparent text-4xl tracking-wide'>{number}</span>
+              <p className='font-bold text-neutral-200 text-4xl mt-3 mb-8'>{heading}</p>
+              <p className='w-[400px] text-neutral-400'>{subheading}</p>
+              { button && <button className=' py-3 px-16 bg-gradient-to-r from-sky-500 to-blue-400 text-white rounded-full mt-6'>Register</button> }
+            </div>
+          </div>
         </div>
-        <Image alt="dummy" height="240" width="240" src="/images/dummy.jpg"/>
+        <Image alt="dummy" height="240" width="240" src="/images/placeholder.png"/>
     </section>
   )
 }
