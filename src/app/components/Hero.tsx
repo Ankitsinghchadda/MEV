@@ -43,12 +43,12 @@ const Hero = () => {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="relative mx-auto max-w-3xl text-center">
               <h1 className="bg-gradient-to-br from-white to-zinc-500 bg-clip-text text-5xl/[1.07] font-bold tracking-tight text-transparent md:text-7xl/[1.07]">
-                Unleash the power of intuitive 
+                Unleash the power of AI
               </h1>
               <p className="mt-6 text-lg font-medium text-zinc-400 md:text-xl">
                 Say goodbye to the outdated tools. Every small
-                business owner, regardless of the background, can now manage
-                their business like a pro. Simple. Intuitive. And never boring.
+                Crypto traders, regardless of the background, can now manage
+                their Cryptocurrency like a pro. Simple. Intuitive. And never boring.
               </p>
               <div className="mt-10 flex flex-col items-center justify-center gap-y-8">
                 <div>
